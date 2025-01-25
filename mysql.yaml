@@ -14,7 +14,7 @@
       enabled: yes
 
   - name: connce to mysql server
-    ansible.mysql.mysql_info: # community module
+    community.mysql.mysql_info: # community module
       login_user: root
       login_password: ExpenseApp@1
       login_host: mysql.ashokkumar.cloud
